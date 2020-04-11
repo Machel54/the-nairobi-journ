@@ -1,0 +1,141 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0px;
+ 
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.input-box{
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid black;
+  outline: none;
+}
+
+.button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin:10px 0;
+  border: none;
+  outline: none;
+}
+
+
+.wrapper{
+  width: 100%;
+  padding: 10px;
+}
+
+.contact-form{
+  display: flex;
+  max-width: 350px;
+  margin: 0 auto;
+  background: black;;
+  padding: 10px;
+  border-radius: 40px;
+  box-shadow: black;
+}
+
+.input-field{
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20%;
+  border-radius: 15px;
+  border: 1px solid black;
+  outline: none;
+  margin: 3px 0;
+  width: 65%;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: black;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: black;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: black;
+}
+
+.btn {
+    background: black;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/****/
+
+#footer {
+  background-color:black;
+  padding: 0px 35px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-copyright {
+  color: #fff;
+  line-height: 40px;
+}
+
+/****/

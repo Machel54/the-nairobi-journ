@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>TNJ/Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Mark Macharia">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <!-- Compiled and minified CSS -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+  <!-- Bootstrap CSS/CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <!-- font-awesome icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Login/Register</a>
+    <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+    <a href="#">Recent purchaces</a>
+    <a href="#">Saved content</a>
+    <a href="#">Messages</a>
+    <a href="#">Updates</a>
+  </div>
+
+  <div class="container-fluid" id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+  </div>
+  <h1 class="text-center p-2">Welcome to the home of togetherness.</h1>
+
+  <div class="wrapper">
+    <div class="contact-form">
+      <div class="input-field">
+        <input type="password" class="input text-dark" placeholder="Enter Code" required>
+      </div>
+      <div class="btn">
+        <input type="submit" value="Submit" class="btn">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <h1 class="text-center"><a href="dashboard.html" class="text-dark">Dashboard</a></h1>
+    <h1 class="text-center"><a href="myjournal.html" class="text-dark">Myjournal</a></h1>
+    <h1 class="text-center"><a href="readtime.html" class="text-dark">Readtime</a></h1>
+    <h1 class="text-center"><a href="today.html" class="text-dark">Today</a></h1>
+    <!-- <h1 class="text-center"><a href="postcode.html" class="text-dark">postcode</a></h1> -->
+    <h1 class="text-center"><a href="#" class="text-dark">About us</a></h1>
+    <h1 class="text-center"><a href="#" class="text-dark">Team</a></h1>
+    <h1 class="text-center"><a href="#" class="text-dark">Support</a></h1>
+    <h1 class="text-center"><a href="#" class="text-dark">Saftey & regulations</a></h1>
+    <h1 class="text-center"><a href="#" class="text-dark">Trade</a></h1>
+  </div>
+
+  <footer id="footer">
+    <div class="row">
+      <div class="footer-copyright">
+        © MMM - All rights reserved
+      </div>
+      <div class="footer-social">
+        
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+</script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- jQuery, Popper.js & Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>
